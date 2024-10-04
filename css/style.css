@@ -114,6 +114,7 @@ header {
     background-color: white;
     color:white;
     flex-wrap: wrap;
+    
 }
 
 
@@ -124,11 +125,11 @@ header {
     text-align: center;
     flex-direction: column;
     border:1px solid black;
-    border-radius: 30px;
-    height: 700px;
+    border-radius: 100px;
+    height: 600px;
     width:70%;
     padding: 20px;
-    margin:30px auto;
+    margin:30px;
     font-size: 25px;
     background-color: #001d42;
 }
