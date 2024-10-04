@@ -194,3 +194,15 @@ header {
     width: 100px;
     height: 100px;
 }
+
+.whats {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    
+}
+
+#whts{
+    border-radius: 100%;
+}
