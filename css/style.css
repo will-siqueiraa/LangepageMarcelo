@@ -13,6 +13,7 @@ header {
     position: sticky;
     top:0;
     background-color: #fff9ea;
+    box-shadow: 0px 0px 5px 0px ;
     z-index: 3;
 }
 .menu {
@@ -27,17 +28,26 @@ header {
     list-style: none;
     gap: 40px;
 }
+.item {
+    border-radius: 10px;
+    padding: 10px;
+}
 
 .item a {
     text-decoration: none;
     color: #1d1d1dad;
     font-weight: 600;
     font-size: 30px;
-    cursor:pointer;
+    
 
 }
 
-
+.item:hover {
+    background-color: #847445;
+    color:black;
+    cursor: pointer;
+    
+}
 
 
 .primeiro {
@@ -46,7 +56,8 @@ header {
     justify-content: space-around;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(161deg, rgba(255,255,255,1) 44%, rgba(132,116,69,0.768032212885154) 44%, rgba(0,29,66,0.6587885154061625) 48%);
+    background: linear-gradient(133deg, rgba(255,248,227,1) 47%, rgba(132,116,69,1) 47%, rgba(132,116,69,1) 49%, rgba(0,29,66,1) 50%);
+
 
 }
 
@@ -64,8 +75,10 @@ header {
     margin: 20px;
 }
 .um p {
-    font-size: 30px;
+    font-size: 35px;
     margin: 20px;
+    font-weight: bold;
+    
 }
 
 
@@ -75,7 +88,7 @@ header {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    color: black;
+    color: white;
     
 }
 .dois h1 {
@@ -93,7 +106,7 @@ header {
     text-align: center;
     height: 100vh;
     width: 100%;
-    background-color: #fff9ea;
+    background-color: white;
     color:white
 }
 
@@ -110,7 +123,7 @@ header {
     padding: 10px;
     margin:30px auto;
     font-size: 25px;
-    background-color: #203c61;
+    background-color: #001d42;
 }
 
 .terceiro {
