@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Forum", serif;
+   
+}
+header {
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+    top:0;
+    background-color: #fff9ea;
+    z-index: 3;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
+    font-size: 30px;
+    cursor:pointer;
+
+}
+
+
+
+
+.primeiro {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(161deg, rgba(255,255,255,1) 44%, rgba(132,116,69,0.768032212885154) 44%, rgba(0,29,66,0.6587885154061625) 48%);
+
+}
+
+.um {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size:20;    
+
+}
+.um h1 {
+    font-size: 60px;
+    margin: 20px;
+}
+.um p {
+    font-size: 30px;
+    margin: 20px;
+}
+
+
+.dois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    
+}
+.dois h1 {
+    font-size: 40px;
+    margin:10px;
+}
+.dois p {
+    font-size: 40px;
+    margin: 10px;
+}
+.segundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff9ea;
+    color:white
+}
+
+.tres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 30px;
+    height: 600px;
+    width:70%;
+    padding: 10px;
+    margin:30px auto;
+    font-size: 25px;
+    background-color: #203c61;
+}
+
+.terceiro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+   
+}
+.quarta img, .quinta img, .sexta img {
+    width: 100px;
+    height: 100px;
+}
+.quarta, .quinta, .sexta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.quarta p, .quinta p, .sexta p {
+    font-size: 22px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+
+.contatos {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.ctt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp, .facebook, .instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 33px;
+    border-radius:20px;
+    box-shadow: 0px 0px 10px 0px;
+    width: 200px;
+    height: 200px;;
+    
+}
+
+.whatsapp:hover, .facebook:hover, .instagram:hover {
+    background-color: #446288;
+    color:white
+}
+
+.img-contato {
+    width: 100px;
+    height: 100px;
+}
