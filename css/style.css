@@ -175,24 +175,27 @@ header {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    font-size: 33px;
-    border-radius:20px;
-    box-shadow: 0px 0px 10px 0px;
+    font-size: 30px;
+    border-radius:10px;
+    /*box-shadow: 0px 0px 10px 0px;*/
     width: 200px;
     height: 200px;
     margin: 20px;
     
 }
 
+
+
 .whatsapp:hover, .facebook:hover, .instagram:hover {
-    background-color: #446288;
+    background-color: #847445;
     color:white;
     cursor:pointer;
 }
 
 .img-contato {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
 }
 
 .whats {
